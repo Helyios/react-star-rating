@@ -1,0 +1,27 @@
+.star-rating {
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-end; */
+}
+
+.star {
+  -webkit-transition: transform 0.4s;
+  transition: transform 0.4s;
+  transition-timing-function: ease;
+  cursor: pointer;
+  padding: 5px;
+  color: #c7c7c7;
+}
+
+.star:hover {
+  transform: scale(1.4);
+  color: #fff67d;
+}
+
+.selected-star {
+  color: #fdec00 !important;
+}
+
+.hovered-star {
+  color: #fff67d;
+}

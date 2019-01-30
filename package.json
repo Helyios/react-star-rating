@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.6.1",
+    "@material-ui/icons": "^3.0.1",
+    "classnames": "^2.2.6",
+    "fg-loadcss": "^2.1.0",
+    "node-sass": "^4.10.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
@@ -21,5 +26,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "./src/index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
